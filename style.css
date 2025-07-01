@@ -16,8 +16,83 @@ body{
     width: 340px;
     border-radius: 1rem; /*16px*/
     margin-right: 0.5rem;
-    
+
 }
+
+/* JavaScript Enhancement Styles */
+.card {
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+}
+
+.play-button {
+    transition: all 0.3s ease !important;
+}
+
+.play-button:hover {
+    transform: translateY(-5px) scale(1.1) !important;
+    background: #1ed760 !important;
+}
+
+.player-control-icon {
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.player-control-icon:hover {
+    transform: scale(1.1);
+    opacity: 1 !important;
+}
+
+.nav-option {
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.badge {
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.badge:hover {
+    transform: scale(1.05);
+    background-color: white;
+    color: black;
+}
+
+.progress-bar {
+    cursor: pointer;
+}
+
+.progress-bar:hover {
+    transform: scaleY(1.2);
+}
+
+.heart {
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.heart:hover {
+    transform: scale(1.2);
+}
+
+.laptop {
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.laptop:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+/* Notification styles are handled by JavaScript */
 
 .main-content{
     background-color: #121212;
